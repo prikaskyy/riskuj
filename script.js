@@ -1,13 +1,19 @@
 function modal(id){
-  const poradi = document.getElementById(id).id;
-  const index = poradi.indexOf("-");
-  const num = poradi.substr(index+1);
+  const cardId = document.getElementById(id).id;
+  const index = cardId.indexOf("-");
+  const lastIndex = cardId.lastIndexOf("-");
+  const temaId = cardId.substr(index+1,lastIndex-index-1);
+  const otazkaId = cardId.substr(lastIndex+1);
+
   const favDialog = document.getElementById("favDialog");
   const text = document.getElementById("questions");
-  const aktivniId = `showDialog-${num}`
+  const aktivniId = `showDialog-${temaId}-${otazkaId}`
   const aktivniPole = document.getElementById(aktivniId);
 
-  nacteniOtazek(text,num);
+  const tema = `tema${temaId}`
+  const otazka = `otazka${otazkaId}`
+
+  nacteniOtazek(text,tema,otazka);
   favDialog.showModal();
   uvod();
 
@@ -24,11 +30,11 @@ function modal(id){
   }
 }
 
-function nacteniOtazek(text,num) {
+function nacteniOtazek(text,tema,otazka) {
   fetch('questions.json')
   .then(response => response.json())
   .then(otazky => {
-    text.innerHTML = otazky.otazka[num-1];
+    text.innerHTML = otazky[tema][otazka].popis;
   })
 }
 
@@ -66,3 +72,31 @@ zastavit.onclick = () => {
   odpocet.innerHTML = "Konec";
   konec();
 }
+
+let Ids = [];
+const pokus = document.querySelectorAll(".card");
+const allIds = Array.from(pokus);
+allIds.forEach((el)=>{
+  Ids.push(el.id)
+})
+
+
+fetch('questions.json')
+.then(response => response.json())
+.then(otazky => {
+  Ids.forEach((id)=>{
+  const card = document.getElementById(id)
+  const cardId = card.id;
+  const index = cardId.indexOf("-");
+  const lastIndex = cardId.lastIndexOf("-");
+  const temaId = cardId.substr(index+1,lastIndex-index-1);
+  const otazkaId = cardId.substr(lastIndex+1);
+  const nadpis = card.querySelector("p");
+
+  const tema = `tema${temaId}`
+  const otazka = `otazka${otazkaId}`
+  
+  nadpis.innerHTML = otazky[tema][otazka].titul;
+
+  })
+})

@@ -1,45 +1,158 @@
 {
-  "otazka":[
-    "Uveďte rozdíl v ceně jednoho kusu vejce v roce 1973 a dnes.",
-    "Kolik stál v roce 1973 1 kg chleba?",
-    "Kolik stálo pivo v roce 1991?",
-    "Jaký byl schodek rozpočtu ČSR v roce 1993?",
-    "Jaká byla cena piva v roce 1993?",
-    "Jaká byla průměrná mzda v roce 2001?",
-    
-    "V kterém roce slavíme státní svátek - vzpomínku na upálení Mistra Jana Husa",
-    "Kdy se slaví den učitelů?",
-    "Od jakého roku jezdí automobily v pravo?",
-    "V jakém roce zkonstruovali Laurin a Klement první automobil?",
-    "V jakém roce byla postavena rozhledna napražském Petříně?",
-    "V kterém roce byl založen FAČR?",
-    
-    "Kolikrát jsme vyhráli MS v hokeji?",
-    "Kolikrát jsme se kvalifikovali na MS světa ve fotbale?",
-    "Kdo vyhrál titul ve fotbale v roce 2023?",
-    "Nejvyšší hora ČR?",
-    "Jak dlouho vydržel člověk z ČR v planku? (světový rekord)",
-    "Nejhlubší propast ČR",
-    
-    "Uveďte rozdíl v ceně jednoho kusu vejce v roce 1973 a dnes.",
-    "Kolik stál v roce 1973 1 kg chleba?",
-    "Kolik stálo pivo v roce 1991?",
-    "Jaký byl schodek rozpočtu ČSR v roce 1993?",
-    "Jaká byla cena piva v roce 1993?",
-    "Jaká byla průměrná mzda v roce 2001?",
-    
-    "V kterém roce slavíme státní svátek - vzpomínku na upálení Mistra Jana Husa",
-    "Kdy se slaví den učitelů?",
-    "Od jakého roku jezdí automobily v pravo?",
-    "V jakém roce zkonstruovali Laurin a Klement první automobil?",
-    "V jakém roce byla postavena rozhledna napražském Petříně?",
-    "V kterém roce byl založen FAČR?",
-    
-    "Kolikrát jsme vyhráli MS v hokeji?",
-    "Kolikrát jsme se kvalifikovali na MS světa ve fotbale?",
-    "Kdo vyhrál titul ve fotbale v roce 2023?",
-    "Nejvyšší hora ČR?",
-    "Jak dlouho vydržel člověk z ČR v planku? (světový rekord)",
-    "Nejhlubší propast ČR"
-  ]
+  "tema1":{
+    "otazka0":{
+      "titul":"Finance",
+      "popis":"Uveďte rozdíl v ceně jednoho kusu vejce v roce 1973 a dnes."
+    },
+    "otazka1":{
+      "titul":"1000",
+      "popis":"Kolik stál v roce 1973 1 kg chleba?"
+    },
+    "otazka2":{
+      "titul":"2000",
+      "popis":"Kolik stálo pivo v roce 1991?"
+    },
+    "otazka3":{
+      "titul":"3000",
+      "popis":"Jaký byl schodek rozpočtu ČSR v roce 1993?"
+    },
+    "otazka4":{
+      "titul":"4000",
+      "popis":"Jaká byla cena piva v roce 1993?"
+    },
+    "otazka5":{
+      "titul":"5000",
+      "popis":"Jaká byla průměrná mzda v roce 2001?"
+    }
+  },
+  "tema2":{
+    "otazka0":{
+      "titul":"Data",
+      "popis":"V kterém roce slavíme státní svátek - vzpomínku na upálení Mistra Jana Husa?"
+    },
+    "otazka1":{
+      "titul":"1000",
+      "popis":"Kdy se slaví den učitelů?"
+    },
+    "otazka2":{
+      "titul":"2000",
+      "popis":"Od jakého roku jezdí automobily v pravo?"
+    },
+    "otazka3":{
+      "titul":"3000",
+      "popis":"V jakém roce zkonstruovali Laurin a Klement první automobil?"
+    },
+    "otazka4":{
+      "titul":"4000",
+      "popis":"V jakém roce byla postavena rozhledna napražském Petříně?"
+    },
+    "otazka5":{
+      "titul":"5000",
+      "popis":"V kterém roce byl založen FAČR?"
+    }
+  },
+  "tema3":{
+    "otazka0":{
+      "titul":"Kuriozity",
+      "popis":"Kolikrát jsme vyhráli MS v hokeji?"
+    },
+    "otazka1":{
+      "titul":"1000",
+      "popis":"Kolikrát jsme se kvalifikovali na MS světa ve fotbale?"
+    },
+    "otazka2":{
+      "titul":"2000",
+      "popis":"Kdo vyhrál titul ve fotbale v roce 2023?"
+    },
+    "otazka3":{
+      "titul":"3000",
+      "popis":"Nejvyšší hora ČR?"
+    },
+    "otazka4":{
+      "titul":"4000",
+      "popis":"Jak dlouho vydržel člověk z ČR v planku? (světový rekord)"
+    },
+    "otazka5":{
+      "titul":"5000",
+      "popis":"Nejhlubší propast ČR"
+    }
+  },
+  "tema4":{
+    "otazka0":{
+      "titul":"Zeměpis",
+      "popis":"Uveďte rozdíl v ceně jednoho kusu vejce v roce 1973 a dnes. druhá verze"
+    },
+    "otazka1":{
+      "titul":"1000",
+      "popis":"Kolik stál v roce 1973 1 kg chleba? druhá verze"
+    },
+    "otazka2":{
+      "titul":"2000",
+      "popis":"Kolik stálo pivo v roce 1991? druhá verze"
+    },
+    "otazka3":{
+      "titul":"3000",
+      "popis":"Jaký byl schodek rozpočtu ČSR v roce 1993? druhá verze"
+    },
+    "otazka4":{
+      "titul":"4000",
+      "popis":"Jaká byla cena piva v roce 1993? druhá verze"
+    },
+    "otazka5":{
+      "titul":"5000",
+      "popis":"Jaká byla průměrná mzda v roce 2001? druhá verze"
+    }
+  },
+  "tema5":{
+    "otazka0":{
+      "titul":"Topky",
+      "popis":"V kterém roce slavíme státní svátek - vzpomínku na upálení Mistra Jana Husa? druhá verze"
+    },
+    "otazka1":{
+      "titul":"1000",
+      "popis":"Kdy se slaví den učitelů? druhá verze"
+    },
+    "otazka2":{
+      "titul":"2000",
+      "popis":"Od jakého roku jezdí automobily v pravo? druhá verze"
+    },
+    "otazka3":{
+      "titul":"3000",
+      "popis":"V jakém roce zkonstruovali Laurin a Klement první automobil? druhá verze"
+    },
+    "otazka4":{
+      "titul":"4000",
+      "popis":"V jakém roce byla postavena rozhledna napražském Petříně? druhá verze"
+    },
+    "otazka5":{
+      "titul":"5000",
+      "popis":"V kterém roce byl založen FAČR? druhá verze"
+    }
+  },
+  "tema6":{
+    "otazka0":{
+      "titul":"Kultura",
+      "popis":"Kolikrát jsme vyhráli MS v hokeji? druhá verze"
+    },
+    "otazka1":{
+      "titul":"1000",
+      "popis":"Kolikrát jsme se kvalifikovali na MS světa ve fotbale? druhá verze"
+    },
+    "otazka2":{
+      "titul":"2000",
+      "popis":"Kdo vyhrál titul ve fotbale v roce 2023? druhá verze"
+    },
+    "otazka3":{
+      "titul":"3000",
+      "popis":"Nejvyšší hora ČR? druhá verze"
+    },
+    "otazka4":{
+      "titul":"4000",
+      "popis":"Jak dlouho vydržel člověk z ČR v planku? (světový rekord) druhá verze"
+    },
+    "otazka5":{
+      "titul":"5000",
+      "popis":"Nejhlubší propast ČR druhá verze"
+    }
+  }
 }
