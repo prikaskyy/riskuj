@@ -1,3 +1,11 @@
+const cards = document.getElementsByClassName("card");
+for (let i = 0; i < cards.length; i++) {
+  cards[i].addEventListener("click", function() {
+    let cardId = this.getAttribute("id");
+    modal(cardId);
+  });
+}
+
 function modal(id){
   const cardId = document.getElementById(id).id;
   const index = cardId.indexOf("-");
@@ -80,7 +88,6 @@ allIds.forEach((el)=>{
   Ids.push(el.id)
 })
 
-
 fetch('questions.json')
 .then(response => response.json())
 .then(otazky => {
@@ -97,6 +104,5 @@ fetch('questions.json')
   const otazka = `otazka${otazkaId}`
   
   nadpis.innerHTML = otazky[tema][otazka].titul;
-
   })
 })
