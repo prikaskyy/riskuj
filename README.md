@@ -1,5 +1,7 @@
 # riskuj hra
 
+demo https://riskuj.prikasky.cz/
+
 Televizní hra Riskuj je všem velice dobře známá. Je několik hráčů, kteří si vybírají otázky z různých okruhů, na které by chtěli zodpovědět. Jedná se o vědomostní otázky kde s počtem bodů za zodpovězení stoupá i obtížnost.
 Otázky a témata jsou **importovány z questions.json**, proto je nutné použít live server např na VS code.
 
