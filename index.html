@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="shortcut icon" href="./assets/back1.jpg" type="image/x-icon">
+    <title>Riskuj - User</title>
+</head>
+<body>
+  <section>
+      <dialog id="favDialog">
+        <div class="modal">
+          <div class="lista">
+            <div id="pocet" class="countdown"></div>
+            <form action=""><button class="zavreni" value="cancel" formmethod="dialog">&times;</button></form>
+          </div>
+          <p id="questions"></p>
+          <div class="tlacitka">
+            <div>
+              <button id="start">START</button>
+              <button id="stop">KONEC</button>
+            </div>
+            <div>
+              <button id="smazat">Smazat</button>
+              <button id="obnovit">Obnovit</button>
+            </div>
+          </div>
+        </div>
+      </dialog>
+    <div class="cards">
+      <div class="flex">
+        <img src="/assets/back1.jpg" alt="" class="logo">
+        <h1>Jméno - Speciál</h1>
+        <img src="/assets/back1.jpg" alt="" class="logo">
+      </div>
+      <div class="card-row">
+        <div class="card nadpis" id="showDialog-1" onclick="modal(id)"><p>Finance</p></div>
+        <div class="card otazka" id="showDialog-2" onclick="modal(id)"><p>1000</p></div>
+        <div class="card otazka" id="showDialog-3" onclick="modal(id)"><p>2000</p></div>
+        <div class="card otazka" id="showDialog-4" onclick="modal(id)"><p>3000</p></div>
+        <div class="card otazka" id="showDialog-5" onclick="modal(id)"><p>4000</p></div>
+        <div class="card otazka" id="showDialog-6" onclick="modal(id)"><p>5000</p></div>
+      </div>
+      <div class="card-row">
+        <div class="card nadpis" id="showDialog-7" onclick="modal(id)"><p>Data</p></div>
+        <div class="card otazka" id="showDialog-8" onclick="modal(id)"><p>1000</p></div>
+        <div class="card otazka" id="showDialog-9" onclick="modal(id)"><p>2000</p></div>
+        <div class="card otazka" id="showDialog-10" onclick="modal(id)"><p>3000</p></div>
+        <div class="card otazka" id="showDialog-11" onclick="modal(id)"><p>4000</p></div>
+        <div class="card otazka" id="showDialog-12" onclick="modal(id)"><p>5000</p></div>
+      </div>
+      <div class="card-row">
+        <div class="card nadpis" id="showDialog-13" onclick="modal(id)"><p>Kuriozity</p></div>
+        <div class="card otazka" id="showDialog-14" onclick="modal(id)"><p>1000</p></div>
+        <div class="card otazka" id="showDialog-15" onclick="modal(id)"><p>2000</p></div>
+        <div class="card otazka" id="showDialog-16" onclick="modal(id)"><p>3000</p></div>
+        <div class="card otazka" id="showDialog-17" onclick="modal(id)"><p>4000</p></div>
+        <div class="card otazka" id="showDialog-18" onclick="modal(id)"><p>5000</p></div>
+      </div>
+      <div class="card-row">
+        <div class="card nadpis" id="showDialog-19" onclick="modal(id)"><p>Zěmepis</p></div>
+        <div class="card otazka" id="showDialog-20" onclick="modal(id)"><p>1000</p></div>
+        <div class="card otazka" id="showDialog-21" onclick="modal(id)"><p>2000</p></div>
+        <div class="card otazka" id="showDialog-22" onclick="modal(id)"><p>3000</p></div>
+        <div class="card otazka" id="showDialog-23" onclick="modal(id)"><p>4000</p></div>
+        <div class="card otazka" id="showDialog-24" onclick="modal(id)"><p>5000</p></div>
+      </div>
+      <div class="card-row">
+        <div class="card nadpis" id="showDialog-25" onclick="modal(id)"><p>Topky</p></div>
+        <div class="card otazka" id="showDialog-26" onclick="modal(id)"><p>1000</p></div>
+        <div class="card otazka" id="showDialog-27" onclick="modal(id)"><p>2000</p></div>
+        <div class="card otazka" id="showDialog-28" onclick="modal(id)"><p>3000</p></div>
+        <div class="card otazka" id="showDialog-29" onclick="modal(id)"><p>4000</p></div>
+        <div class="card otazka" id="showDialog-30" onclick="modal(id)"><p>5000</p></div>
+      </div>
+      <div class="card-row">
+        <div class="card nadpis" id="showDialog-31" onclick="modal(id)"><p>Kultura</p></div>
+        <div class="card otazka" id="showDialog-32" onclick="modal(id)"><p>1000</p></div>
+        <div class="card otazka" id="showDialog-33" onclick="modal(id)"><p>2000</p></div>
+        <div class="card otazka" id="showDialog-34" onclick="modal(id)"><p>3000</p></div>
+        <div class="card otazka" id="showDialog-35" onclick="modal(id)"><p>4000</p></div>
+        <div class="card otazka" id="showDialog-36" onclick="modal(id)"><p>5000</p></div>
+      </div>
+    </div>
+  </section>
+  <audio id="audio" src="./assets/riskuj.mp3"></audio>
+  <audio id="konec" src="./assets/konec.mp3"></audio>
+<script src="script.js"></script>
+</body>
+</html>
